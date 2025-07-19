@@ -1,0 +1,50 @@
+name: Build and Deploy to Azure WebApp
+
+on:
+  push:
+    branches:
+      - main  # Змінити на свою гілку, якщо треба
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Завантажуємо код
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 2. Встановлюємо .NET SDK
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+
+      # 3. Відновлюємо залежності
+      - name: Restore dependencies
+        run: dotnet restore
+
+      # 4. Збираємо проєкт
+      - name: Build
+        run: dotnet build --configuration Release --no-restore
+
+      # 5. Тестуємо
+      - name: Test
+        run: dotnet test --no-build --verbosity normal
+
+      # 6. Публікуємо (збірка для деплою)
+      - name: Publish
+        run: dotnet publish -c Release -o ./publish
+
+      # 7. Логінимося в Azure
+      - name: Login to Azure
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      # 8. Деплоїмо у WebApp
+      - name: Deploy to WebApp
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: myaz204webapi123 # назва твого App Service
+          package: ./publish

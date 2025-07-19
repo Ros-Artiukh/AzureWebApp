@@ -1,0 +1,15 @@
+D:\projects\Learn\Az-204-prepare\MyAz204Api\publish\MyAz204Api.exe
+D:\projects\Learn\Az-204-prepare\MyAz204Api\publish\publish\web.config
+D:\projects\Learn\Az-204-prepare\MyAz204Api\publish\appsettings.Development.json
+D:\projects\Learn\Az-204-prepare\MyAz204Api\publish\appsettings.json
+D:\projects\Learn\Az-204-prepare\MyAz204Api\publish\publish\appsettings.Development.json
+D:\projects\Learn\Az-204-prepare\MyAz204Api\publish\publish\appsettings.json
+D:\projects\Learn\Az-204-prepare\MyAz204Api\publish\publish\MyAz204Api.deps.json
+D:\projects\Learn\Az-204-prepare\MyAz204Api\publish\publish\MyAz204Api.runtimeconfig.json
+D:\projects\Learn\Az-204-prepare\MyAz204Api\publish\publish\MyAz204Api.staticwebassets.endpoints.json
+D:\projects\Learn\Az-204-prepare\MyAz204Api\publish\MyAz204Api.dll
+D:\projects\Learn\Az-204-prepare\MyAz204Api\publish\MyAz204Api.deps.json
+D:\projects\Learn\Az-204-prepare\MyAz204Api\publish\MyAz204Api.runtimeconfig.json
+D:\projects\Learn\Az-204-prepare\MyAz204Api\publish\MyAz204Api.pdb
+D:\projects\Learn\Az-204-prepare\MyAz204Api\publish\Microsoft.AspNetCore.OpenApi.dll
+D:\projects\Learn\Az-204-prepare\MyAz204Api\publish\Microsoft.OpenApi.dll

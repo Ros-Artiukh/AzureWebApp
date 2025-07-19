@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MyAz204Api.props" />
+</Project>

@@ -1,0 +1,9 @@
+D:\projects\Learn\Az-204-prepare\MyAz204Api\bin\Release\net9.0\publish\MyAz204Api.exe
+D:\projects\Learn\Az-204-prepare\MyAz204Api\bin\Release\net9.0\publish\appsettings.Development.json
+D:\projects\Learn\Az-204-prepare\MyAz204Api\bin\Release\net9.0\publish\appsettings.json
+D:\projects\Learn\Az-204-prepare\MyAz204Api\bin\Release\net9.0\publish\MyAz204Api.dll
+D:\projects\Learn\Az-204-prepare\MyAz204Api\bin\Release\net9.0\publish\MyAz204Api.deps.json
+D:\projects\Learn\Az-204-prepare\MyAz204Api\bin\Release\net9.0\publish\MyAz204Api.runtimeconfig.json
+D:\projects\Learn\Az-204-prepare\MyAz204Api\bin\Release\net9.0\publish\MyAz204Api.pdb
+D:\projects\Learn\Az-204-prepare\MyAz204Api\bin\Release\net9.0\publish\Microsoft.AspNetCore.OpenApi.dll
+D:\projects\Learn\Az-204-prepare\MyAz204Api\bin\Release\net9.0\publish\Microsoft.OpenApi.dll
